@@ -5,8 +5,8 @@
 
 MODE="${1:-scan}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DB_PATH="$SCRIPT_DIR/../hardening.db"
-BACKUP_DIR="$SCRIPT_DIR/../backups/filesystem"
+DB_PATH="$SCRIPT_DIR/hardening.db"
+BACKUP_DIR="$SCRIPT_DIR/backups/filesystem"
 TOPIC="Filesystem"
 MODULE_NAME="Filesystem"
 
